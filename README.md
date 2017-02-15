@@ -1,3 +1,3 @@
 # Ruby on Rails Web Development Specialization
 
-My projects and exercises for the Ruby on Rails Web Development Specialization(Coursera & Johns Hopkins University).
+Programming assignments for Rails Specialization of Johns Hopkins University on Cousera.
