@@ -1,7 +1,7 @@
 require 'rspec'
 
 describe "lesson2" do
-  let(:spec_file) { 'lesson02_ex01/ex01.rb' }
+  let(:spec_file) { 'lesson02/ex01.rb' }
   let(:spec_path) { File.expand_path(spec_file, Dir.pwd) }
 
   context "output array" do
