@@ -1,3 +1,5 @@
+# Practice with ruby classes
+
 The overall goal of this assignment is to implement a Ruby class with:
 
 * class attribute(s)

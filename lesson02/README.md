@@ -1,3 +1,5 @@
+# Collections
+
 The overall goal of this assignment is to manipulate collections to derive a result.
 
 ```ruby
