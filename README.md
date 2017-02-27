@@ -1,3 +1,3 @@
-# Ruby on Rails Web Development Specialization
+# Full stack challenges
 
-Programming assignments for Rails Specialization of Johns Hopkins University on Cousera.
+Programming assignments for Rails Specialization on Cousera and other fullstack challenges.
