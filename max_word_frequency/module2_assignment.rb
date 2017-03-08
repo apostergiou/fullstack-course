@@ -29,14 +29,17 @@ class LineAnalyzer
 end
 
 class Solution
-  attr_reader :analyzers, :highest_count_across_lines, :highest_count_words_across_lines
+  attr_reader :analyzers, :highest_count_across_lines,
+              :highest_count_words_across_lines
 
   def initialize
     @analyzers = []
   end
 
   def analyze_file
-    File.readlines('max_word_frequency/test.txt').each_with_index do |line, index|
+    read_lines = File.readlines('max_word_frequency/test.txt')
+
+    read_lines.each_with_index do |line, index|
       @analyzers << LineAnalyzer.new(line, index)
     end
   end

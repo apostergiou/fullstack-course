@@ -1,4 +1,4 @@
-require_relative "module2_assignment"
+require_relative 'module2_assignment'
 
 solution = Solution.new
 solution.analyze_file
