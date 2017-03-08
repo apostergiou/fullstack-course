@@ -22,3 +22,6 @@ Metrics/BlockLength:
 
 Style/DotPosition:
   EnforcedStyle: trailing
+
+Metrics/MethodLength:
+  Max: 20
