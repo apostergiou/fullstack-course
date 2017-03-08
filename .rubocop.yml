@@ -1,0 +1,24 @@
+AllCops:
+  DisplayCopNames: true
+  DisplayStyleGuide: true
+  Severity: fatal
+
+#
+# Disabled Cops
+#
+Style/Documentation:
+  Enabled: false
+
+Style/ModuleFunction:
+  Enabled: false
+
+Style/ColonMethodCall:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+  Exclude:
+    - '/spec/'
+
+Style/DotPosition:
+  EnforcedStyle: trailing
